@@ -6,5 +6,3 @@
 # 将tmux前缀设为3
 set -g prefix 3
 bind 3 send-prefix
-~
-
