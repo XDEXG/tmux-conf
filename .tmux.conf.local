@@ -1,1 +1,10 @@
-display '.tmux.conf.locale sourced'
+# 此文件中的配置会覆盖.tmux.conf中的配置
+
+# 验证此文件是否被执行
+# display '.tmux.conf.locale sourced'
+
+# 将tmux前缀设为3
+set -g prefix 3
+bind 3 send-prefix
+~
+
