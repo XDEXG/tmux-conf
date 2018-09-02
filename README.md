@@ -5,7 +5,8 @@
 cd
 git clone https://github.com/xdexg/tmux-conf.git
 ln -s ~/tmux-conf/.tmux.conf ~/.tmux.conf
-cp ~/tmux-conf/.tmux.conf.local .
+# -n参数使得不覆盖已存在的本地配置文件。
+cp -n ~/tmux-conf/.tmux.conf.local .
 ```
 
 
